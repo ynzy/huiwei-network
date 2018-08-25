@@ -1,3 +1,182 @@
-body {
-    
+/*颜色规范*/
+@fa:#000;
+/*字体规范*/
+@fsize-14:14px;
+/*元素类型*/
+@ib:inline-block;
+/*间距*/
+@width：54px：
+
+
+a {
+    color: @fa;
 }
+.clearflx:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    font-size: 0;
+}
+
+/*hearder start*/
+.header {
+    
+    height: 80px;
+    line-height: 80px;
+    padding: 0 40px;
+
+    .nav-header {
+
+        .nav-bar{
+            display: flex;
+            
+            .nav-menu {
+                flex: 1;
+                margin: 0 100px 0 60px;
+
+                ul li {
+                    display: @ib;
+                    width: 102px;
+                    text-align:center;
+
+                }
+                ul li a {
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+.logo {
+                
+    img {
+        vertical-align: middle;
+    }
+}
+.icon {
+    .search {
+        display: @ib;
+        width: 45px;
+        height: 80px;
+        text-align: center;
+    }
+
+    a {
+        width: 35px;
+        color: #000;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .language {
+        display: @ib;
+        width: 45px;
+        text-align: center;
+    }
+}
+/*header end*/
+
+/*footer start*/
+footer {
+
+    .footertop {
+        padding: 48px 0 65px 0;
+
+        .layout {
+            padding: 0 3%;
+            display: flex;
+
+
+            dl {
+                width: 25%;
+                float: left;
+                margin-bottom: 20px;
+                line-height: 40px;
+            }
+        }
+    }
+
+    .footer-bottom{
+        bottom: 0;
+        font-size: 12px;
+        color: #999;
+        height: 60px;
+        background-color: #202020;
+
+        .record {
+            padding:0 30px;
+            line-height: 60px;
+            display: flex;
+
+            .copyright {
+                flex: 1;
+            }
+            .link {
+                
+            }
+        }
+
+        
+    }
+}
+.weblink {
+    width: 800px;
+
+}
+.service {
+    flex: 1;
+
+
+    .line {
+        text-align: right;
+    
+        .tip {
+            font-size: 14px;
+            color: #555555;
+            line-height: 34px;
+        }
+    
+        .call {
+            padding-left: 40px;
+            background-position: left center;
+            background-repeat: no-repeat;
+            line-height: 40px;
+            font-size: 36px;
+            background-size: auto 70%;
+            color: #e50012;
+            font-weight: bold;
+        }
+    
+        .ser {
+            display: inline-block;
+            margin-top: 19px;
+            font-size: 16px;
+            background-color: #e50012;
+            // background-image: url(../images/footer/cact.png);
+            background-position: 32px center;
+            background-repeat: no-repeat;
+            border-radius: 50px;
+            padding: 0 34px 0 64px;
+            color: #ffffff;
+            line-height: 50px;
+            background-size: auto 39%;
+        }
+    }
+}
+dt {
+    font-size: 20px;
+    a {
+        color: #000;
+    } 
+}
+dd {
+    font-size: 13px;
+    a {
+        color: #000
+    }
+}
+
+/*footer end*/
