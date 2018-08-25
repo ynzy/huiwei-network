@@ -42,6 +42,7 @@
   height: 950px;
   background: no-repeat center;
   padding-top: 75px;
+  margin-top: -33px;
 }
 .list2 .layout {
   width: 100%;
@@ -81,10 +82,103 @@
   margin-top: 50px;
 }
 .word a span {
+  height: 60px;
+  width: 200px;
   display: inline-block;
   font-size: 18px;
   color: #fff;
   padding-right: 50px;
+  background: url(../images/list2/right.png);
+  background: no-repeat right;
+}
+/*list2 end*/
+/*list3 start*/
+.list3 {
+  background-color: #fff;
+  padding: 50px 0 60px;
+}
+.list3 .title {
+  width: 100%;
+  padding: 0 10px;
+  text-align: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  clear: both;
+}
+.list3 .title h5 {
+  font-size: 18px;
+  color: #d5d5d5;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+.list3 .title h4 {
+  font-size: 45px;
+  color: #000;
+  line-height: 65px;
+}
+.title-details {
+  margin-top: 40px;
+}
+.title-details ul {
+  display: flex;
+}
+.title-details li {
+  width: 33.5%;
+  margin: 0 10px;
+}
+.title-details li a {
+  display: inline-block;
+}
+.details-img {
+  height: 200px;
+  padding: 10px;
+  background-color: #fff;
+}
+.details-img img {
+  height: 100%;
+  margin: 0 30px;
+}
+.details-word {
+  padding: 20px 30px 40px;
+}
+.details-word h5 {
+  margin-bottom: 10px;
+  font-size: 100%;
+  font-weight: 200;
+}
+.details-word h5 span:first-child {
+  padding-right: 12px;
+  margin-right: 12px;
+}
+.details-word h5 span {
+  font-size: 12px;
+  color: #999;
+  line-height: 34px;
+  vertical-align: middle;
+}
+.details-word h4 {
+  font-size: 18px;
+  color: #333;
+  line-height: 38px;
+  height: 76px;
+  overflow: hidden;
+}
+.more {
+  display: block;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border: 1px solid red;
+  border-radius: 60px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.more span {
+  font-size: 18px;
+  color: #ec676d;
+  padding-right: 50px;
+  text-transform: uppercase;
   background: url(../images/list2/right.png);
   background: no-repeat right;
 }
