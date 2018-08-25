@@ -1,0 +1,51 @@
+/*颜色规范*/
+/*字体规范*/
+/*元素类型*/
+/*间距*/
+@width ：54px：
+
+
+a {
+  color: #000;
+}
+/*hearder start*/
+.header {
+  height: 80px;
+  line-height: 80px;
+  padding: 0 40px;
+}
+.header .nav-header .nav-bar {
+  display: flex;
+}
+.header .nav-header .nav-bar .nav-menu {
+  flex: 1;
+  margin: 0 100px 0 60px;
+}
+.header .nav-header .nav-bar .nav-menu ul li {
+  display: inline-block;
+  width: 102px;
+  text-align: center;
+}
+.header .nav-header .nav-bar .nav-menu ul li a {
+  color: #000;
+}
+.logo img {
+  vertical-align: middle;
+}
+.icon .search {
+  display: inline-block;
+  width: 45px;
+  height: 80px;
+  text-align: center;
+}
+.icon a {
+  width: 35px;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+}
+.icon .language {
+  display: inline-block;
+  width: 45px;
+  text-align: center;
+}
