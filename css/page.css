@@ -90,6 +90,9 @@ footer .footer-bottom .record {
 footer .footer-bottom .record .copyright {
   flex: 1;
 }
+footer .footer-bottom .record .link a {
+  color: #999;
+}
 .weblink {
   width: 800px;
 }
