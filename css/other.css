@@ -1,3 +1,6 @@
+.banner {
+  background-color: #f6f6f6;
+}
 .banner .swiper-wrapper {
   height: 400px;
 }
@@ -129,4 +132,62 @@
   background: #e50012;
   color: #fff;
   margin: 0 10px;
+}
+/*information end*/
+/*shopping start*/
+.g-shop-wrapper {
+  height: 480px;
+  width: 100%;
+}
+.g-shop-wrapper a {
+  display: block;
+  height: 100%;
+}
+.g-shop-wrapper a img {
+  height: 100%;
+  width: 100%;
+}
+.g-shop-title {
+  width: 100%;
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+  padding: 72px 0;
+}
+.g-shop-list {
+  padding: 0 10px 40px 10px;
+}
+.g-shop-list .g-shop-flx {
+  display: flex;
+}
+.g-shop-list .g-shop-flx li {
+  flex: 1;
+  text-align: center;
+  background: #fff;
+  width: 31.429%;
+  margin: 0 10px;
+}
+.g-shop-pic {
+  width: 335px;
+  height: 335px;
+}
+.g-shop-wt {
+  padding: 0 30px;
+}
+.g-shop-wt .g-content {
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+  line-height: 50px;
+}
+.g-shop-wt .g-content span {
+  display: block;
+  font-size: 18px;
+  color: #999;
+  line-height: 28px;
+}
+.g-num {
+  font-size: 30px;
+  color: #D90514;
+  height: 40px;
 }
