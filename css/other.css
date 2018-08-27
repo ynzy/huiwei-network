@@ -191,3 +191,40 @@
   color: #D90514;
   height: 40px;
 }
+/*shoping end*/
+/*service start*/
+.l-service-bg img {
+  width: 100%;
+}
+.l-service-list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.l-service-list ul li {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  background-color: #fff;
+  margin: 20px 10px;
+}
+.l-service-wt {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  margin: 0 auto;
+}
+.l-service-wt i {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  background: no-repeat center;
+}
+.l-service-wt p {
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+  line-height: 34px;
+  padding-top: 50px;
+}
