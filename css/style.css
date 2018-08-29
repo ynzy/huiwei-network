@@ -1,69 +1,71 @@
-/*颜色规范*/
-/*字体规范*/
-/*元素类型*/
-/*间距*/
-@width ：54px：
-
 body {
   background-color: #f6f6f6;
 }
-a {
-  color: #000;
+/*layout start*/
+.l-main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
-.clearflx:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  font-size: 0;
-}
-/*hearder start*/
-.header {
+header {
   height: 80px;
   line-height: 80px;
-  padding: 0 40px;
+  padding: 0 3%;
+  background-color: #fff;
 }
-.header .nav-header .nav-bar {
+main {
+  flex: 1;
+}
+/*layout end*/
+/*hearder start*/
+.nav-header {
+  height: 100%;
+}
+.nav-header .nav-bar {
   display: flex;
 }
-.header .nav-header .nav-bar .nav-menu {
+.nav-header .nav-bar .nav-menu {
   flex: 1;
   margin: 0 100px 0 60px;
 }
-.header .nav-header .nav-bar .nav-menu ul li {
-  display: inline-block;
-  width: 102px;
+.g-nav-flx {
+  display: flex;
   text-align: center;
 }
-.header .nav-header .nav-bar .nav-menu ul li a {
+.g-nav-flx li {
+  width: 102px;
+}
+.g-nav-flx li a {
   color: #000;
 }
 .logo img {
   vertical-align: middle;
 }
+.icon {
+  display: flex;
+}
 .icon .search {
-  display: inline-block;
-  width: 45px;
+  width: 54px;
   height: 80px;
   text-align: center;
 }
+.icon span {
+  color: #ddd;
+}
 .icon a {
-  width: 35px;
+  width: 54px;
   color: #000;
   text-align: center;
   display: inline-block;
 }
 .icon .language {
-  display: inline-block;
-  width: 45px;
+  width: 54px;
   text-align: center;
 }
 /*header end*/
 /*footer start*/
 footer {
-  background: #ffffff;
+  background: #fff;
 }
 footer .footertop {
   padding: 48px 0 65px 0;
@@ -146,21 +148,34 @@ dd a {
   color: #000;
 }
 /*footer end*/
-/*onClick*/
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
+/*aicallv9 start*/
+.g-menu {
+  display: flex;
+  background: #fff;
 }
-#myBtn:hover {
-  background-color: #555;
+.g-menu .g-sidebar {
+  flex: 1;
+  background: fuchsia;
+  margin: 0 10px;
 }
+.g-tips {
+  margin: 10px auto;
+  background: #ddd;
+}
+.g-tips span {
+  width: 15%;
+  background: gold;
+}
+.g-flx {
+  display: flex;
+}
+.g-flx .g-tab {
+  width: 50%;
+}
+.g-submenu .submenu-content {
+  display: inline-block;
+}
+.g-list {
+  padding: 40px 10px 80px;
+}
+/*aicallv9 end*/
