@@ -392,7 +392,6 @@ dd a {
   padding: 0 10px;
 }
 .main-content .g-wrap .scroll-box {
-  padding: 30px 100px 60px;
   border-bottom: 1px solid #d0d0d0;
   background: #fff;
 }
@@ -433,6 +432,9 @@ dd a {
   line-height: 40px;
   text-indent: 24px;
 }
+.g-content .scoroll-content-tips {
+  height: 40px;
+}
 .g-content .scorll-pic img {
   display: block;
   margin: 0 auto;
@@ -448,10 +450,20 @@ dd a {
 }
 .g-search {
   padding: 10px 50px;
+  position: relative;
+}
+.g-search .search-left {
+  margin-bottom: 20px;
 }
 .g-search .search-left a span:nth-child(2) {
   color: #333;
 }
+.g-search .search-left a span:nth-child(2):hover {
+  color: #D90514;
+}
 .g-search .search-right {
   float: right;
+  position: absolute;
+  right: 0;
+  top: 6px;
 }
