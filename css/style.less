@@ -2,6 +2,7 @@
 
 //颜色规范：
 @tc: #fff;
+@fc: #D90514;
 body {
     background-color: #f6f6f6;
 }
@@ -150,7 +151,7 @@ footer {
             line-height: 40px;
             font-size: 36px;
             background-size: auto 70%;
-            color: #e50012;
+            color: @fc;
             font-weight: bold;
         }
     
@@ -158,7 +159,7 @@ footer {
             display: inline-block;
             margin-top: 19px;
             font-size: 16px;
-            background-color: #e50012;
+            background-color: @fc;
             // background-image: url(../images/footer/cact.png);
             background-position: 32px center;
             background-repeat: no-repeat;
@@ -188,39 +189,150 @@ dd {
 /*aicallv9 start*/
 .g-menu {
     display: @flx;
+    padding: 70px 0 76px;
+    background: #FFFFFF;
     background: @tc;
 
     .g-sidebar {
         flex: 1;
-        background: fuchsia;
         margin: 0 10px;
+
+        .g-title {
+            font-size: 46px;
+            color: #333;
+            line-height: 90px;
+        }
+        .g-msg {
+            font-size: 18px;
+            color: #777;
+            height: 30px;
+            padding: 5px 18px 18px 0;
+
+        }
     }
 }
+.sidebar-pic {
+    width: 608px;
+}
 .g-tips {
-    margin: 10px auto;
-    background: #ddd;
+    padding-top: 20px;
 
     span {
+        float: left;
+        display: inline-block;
         width: 15%;
-        background: gold;
+        line-height: 30px;
+        font-size: 14px;
+        color: #777777;
     }
 
-    input {
-
+    .p4 {
+        display:inline-block;
+        width: 26%;
+        font-size: 14px;
+        color: @fc;
+        line-height: 28px;
+        text-align: center;
+        border: 1px solid @fc;
+        border-radius: 28px;
     }
+
+    .tips-input {
+        height: 30px;
+        line-height: 30px;
+            .min {
+                width: 30px;
+                height: 30px;
+                font-size: 30px;
+                color: #999;
+                border: none;
+                background: none;
+            }
+            .num {
+                width: 60px;
+                height: 30px;
+                font-size: 14px;
+                color: #333;
+                text-align: center;
+                background-color: #f6f6f6;
+                border-radius: 30px;
+                margin: 0 10px;
+            }
+            .max {
+                .min;
+                color: @fc;
+            }
+    }
+    ul {
+        display: flex;
+
+        li {
+            width: 30%;
+            height: 58px;
+            line-height: 58px;
+            font-size: 18px;
+            color: #333;
+            text-align: center;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            margin-right: 4%;
+
+        }
+    }
+    .shop-add {
+        width: 30%;
+        height: 60px;
+        font-size: 20px;
+        color: #333;
+        border: none;
+        background: #f6f6f6;
+        border-radius: 5px;
+        margin-right: 4%;
+    }
+    .shop-buy {
+        .shop-add;
+        color: @tc;
+        background: @fc;
+    }
+
 }
 .g-flx {
     display: @flx;
 
     .g-tab {
         width: 50%;
+
+        .tab-p1 {
+            font-size: 14px;
+            color: #777;
+            line-height: 34px;
+        }
+        .tab-p2 {
+            font-size: 36px;
+            color: @fc;
+            line-height: 50px;
+        }
+        .tab-p3 {
+            text-decoration: line-through;
+            font-size: 18px;
+            color: #999;
+            line-height: 50px;
+        }
     }
 }
 
 .g-submenu {
-
+    height: 80px;
+    line-height: 80px;
+    border-top: 1px solid #EEEEEE;
+    padding: 0 10px;
+    background: @tc;
     .submenu-content {
         display: inline-block;
+        font-size: 16px;
+        color: #333;
+        margin-right: 3%;
+        border-bottom: 2px #FFFFFF solid;
     }
 }
 
@@ -230,11 +342,15 @@ dd {
 }
 
 .list-content {
-
+    padding-bottom: 40px;
     p {
+        height: 25px;
+        font-size: 14px;
+        line-height: 25px;
+        color: rgb(136, 136, 136);
 
         a {
-
+            color: #0000ee;
         }
     }
 }

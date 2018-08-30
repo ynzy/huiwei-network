@@ -119,14 +119,14 @@ footer .footer-bottom .record .link a {
   line-height: 40px;
   font-size: 36px;
   background-size: auto 70%;
-  color: #e50012;
+  color: #D90514;
   font-weight: bold;
 }
 .service .line .ser {
   display: inline-block;
   margin-top: 19px;
   font-size: 16px;
-  background-color: #e50012;
+  background-color: #D90514;
   background-position: 32px center;
   background-repeat: no-repeat;
   border-radius: 50px;
@@ -151,20 +151,115 @@ dd a {
 /*aicallv9 start*/
 .g-menu {
   display: flex;
+  padding: 70px 0 76px;
+  background: #FFFFFF;
   background: #fff;
 }
 .g-menu .g-sidebar {
   flex: 1;
-  background: fuchsia;
   margin: 0 10px;
 }
+.g-menu .g-sidebar .g-title {
+  font-size: 46px;
+  color: #333;
+  line-height: 90px;
+}
+.g-menu .g-sidebar .g-msg {
+  font-size: 18px;
+  color: #777;
+  height: 30px;
+  padding: 5px 18px 18px 0;
+}
+.sidebar-pic {
+  width: 608px;
+}
 .g-tips {
-  margin: 10px auto;
-  background: #ddd;
+  padding-top: 20px;
 }
 .g-tips span {
+  float: left;
+  display: inline-block;
   width: 15%;
-  background: gold;
+  line-height: 30px;
+  font-size: 14px;
+  color: #777777;
+}
+.g-tips .p4 {
+  display: inline-block;
+  width: 26%;
+  font-size: 14px;
+  color: #D90514;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #D90514;
+  border-radius: 28px;
+}
+.g-tips .tips-input {
+  height: 30px;
+  line-height: 30px;
+}
+.g-tips .tips-input .min {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  color: #999;
+  border: none;
+  background: none;
+}
+.g-tips .tips-input .num {
+  width: 60px;
+  height: 30px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+  margin: 0 10px;
+}
+.g-tips .tips-input .max {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  color: #999;
+  border: none;
+  background: none;
+  color: #D90514;
+}
+.g-tips ul {
+  display: flex;
+}
+.g-tips ul li {
+  width: 30%;
+  height: 58px;
+  line-height: 58px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+.g-tips .shop-add {
+  width: 30%;
+  height: 60px;
+  font-size: 20px;
+  color: #333;
+  border: none;
+  background: #f6f6f6;
+  border-radius: 5px;
+  margin-right: 4%;
+}
+.g-tips .shop-buy {
+  width: 30%;
+  height: 60px;
+  font-size: 20px;
+  color: #333;
+  border: none;
+  background: #f6f6f6;
+  border-radius: 5px;
+  margin-right: 4%;
+  color: #fff;
+  background: #D90514;
 }
 .g-flx {
   display: flex;
@@ -172,10 +267,49 @@ dd a {
 .g-flx .g-tab {
   width: 50%;
 }
+.g-flx .g-tab .tab-p1 {
+  font-size: 14px;
+  color: #777;
+  line-height: 34px;
+}
+.g-flx .g-tab .tab-p2 {
+  font-size: 36px;
+  color: #D90514;
+  line-height: 50px;
+}
+.g-flx .g-tab .tab-p3 {
+  text-decoration: line-through;
+  font-size: 18px;
+  color: #999;
+  line-height: 50px;
+}
+.g-submenu {
+  height: 80px;
+  line-height: 80px;
+  border-top: 1px solid #EEEEEE;
+  padding: 0 10px;
+  background: #fff;
+}
 .g-submenu .submenu-content {
   display: inline-block;
+  font-size: 16px;
+  color: #333;
+  margin-right: 3%;
+  border-bottom: 2px #FFFFFF solid;
 }
 .g-list {
   padding: 40px 10px 80px;
+}
+.list-content {
+  padding-bottom: 40px;
+}
+.list-content p {
+  height: 25px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #888888;
+}
+.list-content p a {
+  color: #0000ee;
 }
 /*aicallv9 end*/
