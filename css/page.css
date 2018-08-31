@@ -5,7 +5,7 @@
 @width ：54px：
 
 body {
-  background-color: #f6f6f6;
+  background: #f6f6f6;
 }
 a {
   color: #000;
@@ -28,17 +28,58 @@ a {
 .header .nav-header .nav-bar {
   display: flex;
 }
-.header .nav-header .nav-bar .nav-menu {
+.nav-menu {
   flex: 1;
   margin: 0 100px 0 60px;
 }
-.header .nav-header .nav-bar .nav-menu ul li {
+.nav-menu ul li {
   display: inline-block;
   width: 102px;
   text-align: center;
 }
-.header .nav-header .nav-bar .nav-menu ul li a {
+.nav-menu ul li a {
   color: #000;
+}
+.nav-menu ul li a:hover {
+  color: #e50012;
+}
+.submenu .submenu-list {
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  padding: 20px 0 10px;
+  background: #ffffff;
+  box-shadow: 0 1px 7px 1px #f5f5f5;
+  border-top: 1px solid #dedede;
+}
+.submenu .submenu-list a {
+  display: inline-block;
+  line-height: 50px;
+  color: #000;
+  vertical-align: top;
+  margin: 0 auto;
+}
+.submenu:hover .submenu-list {
+  display: block;
+}
+.list-img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.list-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.list-content p {
+  display: block;
+  font-size: 16px;
+  line-height: 2em;
+}
+.list-content p:nth-child(2) {
+  font-size: 14px;
+  line-height: 1em;
 }
 .logo img {
   vertical-align: middle;
